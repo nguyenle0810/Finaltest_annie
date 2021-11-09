@@ -25,7 +25,7 @@
 
 <body>
     <header>
-        <div class="nav_bar navbar00">
+        <div class="nav_bar navbar00" id="home">
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid p-0 navbar01">
                     <a class="navbar-brand" style="margin-left: 10px" ; href="#">
@@ -295,7 +295,12 @@
                 </div>
             </div>
         </div>
-        <div class="container" id="aboutus">
+        <div class="break" id="aboutus">
+            <h2>
+                <p style="font-size: 20px; text-align: center; margin-top: 20px; margin-bottom: 20px;">If you have any special requests, please feel free to call us. +12.345.678.9012</p>
+            </h2>
+        </div style="margin-top: 20px">
+        <div class="container">
             <div class="row">
                 <div class="col-md-4 pr-md-5">
                     <h3>About Us</h3>
@@ -307,13 +312,12 @@
                         <div class="col-md-3">
                             <h3>Navigation</h3>
                             <ul class="list-unstyled">
-                                <li><a style="text-decoration: none" href="#"><i
+                                <li><a style="text-decoration: none" href="#home"><i
                                     class="fas fa-paw"></i> Home</a></li>
-                                <li><a style="text-decoration: none" href="#">Rooms</a></li>
-                                <li><a style="text-decoration: none" href="#">Amenities</a></li>
-                                <li><a style="text-decoration: none" href="#">Gallery</a></li>
-                                <li><a style="text-decoration: none" href="#">About Us</a></li>
-                                <li><a style="text-decoration: none" href="#">Contact</a></li>
+                                <li><a style="text-decoration: none" href="#service">Service</a></li>
+                                <li><a style="text-decoration: none" href="#Amenities">Amenities</a></li>
+                                <li><a style="text-decoration: none" href="#aboutus">About Us</a></li>
+                                <li><a style="text-decoration: none" href="#aboutus">Contact</a></li>
                             </ul>
                         </div>
                         <div class="col-md-9 ml-auto">
@@ -335,7 +339,7 @@
                             <form action="#" method="" class="form-subscribe">
                                 <div class="form-group d-flex">
                                     <input type="email" class="form-control mr-2" placeholder="Enter your email">
-                                    <input class="btn btn-primary submit_button" style="margin-left: 5px;" type="submit"
+                                    <input class="btn btn-outline-warning" style="margin-left: 5px; color:rgba(149, 160, 89, 0.938)" type="submit"
                                         value="Submit">
                                 </div>
                             </form>
@@ -345,17 +349,17 @@
         <div class="container">
             <div class="row" id="footer01">
                 <div class="col">
-                    <p style="text-align: center;">
+                    <p style="text-align: left;">
                         Copyright &copy;
                         <script>document.write(new Date().getFullYear());</script> <a href="index.html">Annie's Pet
                             Hotel</a>. All Rights Reserved.
                     </p>
                 </div>
-                <div class="col" style="text-align: center; font-size: 18px; margin-left: 200px">
-                    <a href="#"><i class="fas fa-paw social"></i></a>
-                    <a href="#"><i class="fab fa-facebook social"></i></a>
-                    <a href="#"><i class="fab fa-twitter social"></i></a>
-                    <a href="#"><i class="fab fa-instagram social"></i></a>
+                <div class="col" style="text-align: right; font-size: 18px; color: rgba(199, 211, 128, 0.938)">
+                    <a style="color:rgba(149, 160, 89, 0.938);margin-left: 20px"; href="#"><i class="fas fa-paw social"></i></a>
+                    <a style="color:rgba(149, 160, 89, 0.938);margin-left: 20px" href="#"><i class="fab fa-facebook social"></i></a>
+                    <a style="color:rgba(149, 160, 89, 0.938);margin-left: 20px" href="#"><i class="fab fa-twitter social"></i></a>
+                    <a style="color:rgba(149, 160, 89, 0.938);margin-left: 20px" href="#"><i class="fab fa-instagram social"></i></a>
                 </div>
             </div>
         </div>
